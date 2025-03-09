@@ -6,13 +6,15 @@ import AlertApp from '../05-Alerts/AlertApp'
 import TemperatureController from '../06-Temperature-Controller/TemperatureController'
 
 import LightAndDarkMode from '../07-Dark-mode/LightAndDarkMode'
+import SlideToUnlock from '../08-Slide-to-unlock/SlideToUnlock'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <LightAndDarkMode/>
+    <SlideToUnlock/>
+    {/* <LightAndDarkMode/> */}
     {/* <TemperatureController/> */}
     {/* <AlertApp/> */}
     {/* <Testimonial/> */}
