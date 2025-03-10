@@ -7,13 +7,15 @@ import TemperatureController from '../06-Temperature-Controller/TemperatureContr
 
 import LightAndDarkMode from '../07-Dark-mode/LightAndDarkMode'
 import SlideToUnlock from '../08-Slide-to-unlock/SlideToUnlock'
+import RandomColor from '../39-ColorGenerator/RandomColor'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <SlideToUnlock/>
+        <RandomColor/>
+    {/* <SlideToUnlock/> */}
     {/* <LightAndDarkMode/> */}
     {/* <TemperatureController/> */}
     {/* <AlertApp/> */}
