@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+/* Basic container styling */
+.search-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 30px;
+    padding: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  /* Expanding animation */
+  .search-container.expanded {
+    width: 250px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Search Icon */
+  .search-icon {
+    font-size: 20px;
+    color: #555;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Input Field */
+  .search-input {
+    border: none;
+    outline: none;
+    width: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  /* Expand input when container is expanded */
+  .search-container.expanded .search-input {
+    width: 180px;
+    opacity: 1;
+  }
+  
